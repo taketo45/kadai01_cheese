@@ -1,0 +1,10 @@
+git remote add origin git@github.com:taketo45/kadai01_cheese.git
+
+git remote -v
+
+git push origin main
+
+
+.gitignore
+
+
