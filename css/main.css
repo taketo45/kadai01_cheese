@@ -88,6 +88,7 @@ body {
   background: #1b1f22;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  -webkit-animation: none !important;
   animation: none !important;
   transition: none !important;
 }
@@ -158,6 +159,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   border-bottom: solid 1px #ffd61a;
   width: -moz-max-content;
+  width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
   padding-bottom: 0.5rem;
@@ -734,17 +736,17 @@ ul.actions.fit.stacked {
     padding-top: 0;
   }
   ul.actions:not(.fixed) li input[type=submit],
-  ul.actions:not(.fixed) li input[type=reset],
-  ul.actions:not(.fixed) li input[type=button],
-  ul.actions:not(.fixed) li button,
-  ul.actions:not(.fixed) li .button {
+ul.actions:not(.fixed) li input[type=reset],
+ul.actions:not(.fixed) li input[type=button],
+ul.actions:not(.fixed) li button,
+ul.actions:not(.fixed) li .button {
     width: 100%;
   }
   ul.actions:not(.fixed) li input[type=submit].icon:before,
-  ul.actions:not(.fixed) li input[type=reset].icon:before,
-  ul.actions:not(.fixed) li input[type=button].icon:before,
-  ul.actions:not(.fixed) li button.icon:before,
-  ul.actions:not(.fixed) li .button.icon:before {
+ul.actions:not(.fixed) li input[type=reset].icon:before,
+ul.actions:not(.fixed) li input[type=button].icon:before,
+ul.actions:not(.fixed) li button.icon:before,
+ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5em;
   }
 }
@@ -952,7 +954,7 @@ button {
 #bg:before {
   transition: background-color 1.5s ease-in-out;
   transition-delay: 0.75s;
-  background-image: linear-gradient(to top, rgba(24, 25, 19, 0.5), rgba(24, 25, 19, 0.5)), url("images/overlay.png");
+  background-image: linear-gradient(to top, rgba(24, 25, 19, 0.5), rgba(24, 25, 19, 0.5)), url("../../images/overlay.png");
   background-size: auto, 256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
@@ -961,7 +963,7 @@ button {
 #bg:after {
   transform: scale(1.125);
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("img/mainbg.png");
+  background-image: url("../../img/mainbg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1342,4 +1344,5 @@ img {
   top: 8px;
   left: 8px;
   width: 35%;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
