@@ -38,22 +38,12 @@ html {
   position: absolute;
   top: 10px;
   left: 200px;
-  -webkit-animation: blink 1.5s ease-in-out infinite alternate;
   animation: blink 1.5s ease-in-out infinite alternate;
 }
 .clicklogo img {
   width: 100px;
   position: absolute;
   top: 30px;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @keyframes blink {
   0% {
@@ -490,36 +480,8 @@ footer {
 }
 
 .anim-box.poyoyon3.is-animated {
-  -webkit-animation: poyoyon3 2.5s infinite;
-          animation: poyoyon3 2.5s infinite;
+  animation: poyoyon3 2.5s infinite;
   opacity: 1;
-}
-
-@-webkit-keyframes poyoyon3 {
-  0%, 40% {
-    transform: skew(0deg, 0deg);
-  }
-  5% {
-    transform: skew(5deg, 5deg);
-  }
-  10% {
-    transform: skew(-4deg, -4deg);
-  }
-  15% {
-    transform: skew(3deg, 3deg);
-  }
-  20% {
-    transform: skew(-2deg, -2deg);
-  }
-  25% {
-    transform: skew(1deg, 1deg);
-  }
-  30% {
-    transform: skew(-0.6deg, -0.6deg);
-  }
-  35% {
-    transform: skew(0.3deg, 0.3deg);
-  }
 }
 
 @keyframes poyoyon3 {
@@ -547,5 +509,4 @@ footer {
   35% {
     transform: skew(0.3deg, 0.3deg);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
