@@ -26,5 +26,5 @@ https://taketo45.github.io/kadai01_cheese/
   ・SCSSはチームでサイトのメンテナンスをするうえでは理解しておいたほうがよい技術だとおもったので、Progateなどを利用して理解を深めておきたい。
   ・FigmaなどのCSSと連携するツールについても理解を深めて、より効率的にCSSを記載できるようになっていきたい。
 - [参考記事]
-  - 1. [URLをここに記入]
-  - 2. [URLをここに記入]
+  - 1. [CSSをSCSSにコンバートするときに使ったサイト](https://css2sass.herokuapp.com/)
+  - 2. [裏サイトの元テンプレート配布サイト](https://html5up.net/)
